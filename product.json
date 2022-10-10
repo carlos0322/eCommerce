@@ -1,0 +1,78 @@
+[
+    { 
+       
+       "image":"images/xboxx.png",
+       "console": "Xbox series X",
+       "price": "$199.99",
+       "discription": "Microsoft - Xbox Series X 1TB Console - Black"
+       
+   },
+   {
+       "image": "images/xboxs.png",
+       "console":"Xbox series S",
+       "price": "$149.99",
+       "discription": "Microsoft - Xbox Series S 512 GB All-Digital Console (Disc-free Gaming) "
+       
+   },
+   {
+       "image":"images/xboxones.png",
+       "console": "Xbox One S",
+       "price": "$124.99",
+       "discription": "Microsoft Xbox One S White 1TB Video Game Console"
+   },
+   {
+       "image":"images/xboxone.png",
+       "console": "Xbox one",
+       "price": "$99.99",
+       "discription": "Microsoft Xbox One 500GB Console Black with Original Controller"
+   },
+   {
+       "image":"images/ps5.png",
+       "console": "PlayStation 5",
+       "price": "$299.99",
+       "discription": "Sony PlayStation PS5 Gaming Console 500GB (Disc Version)"
+   },
+   {
+       "image":"images/ps4.png",
+       "console": "PlayStation 4",
+       "price": "$149.99",
+       "discription": "Sony PlayStation 4 Slim 1TB Console Black"
+   },
+   {
+       "image":"images/ps2.png",
+       "console": "PlayStation 2 Slim",
+       "price": "$99.99",
+       "discription": "Sony PlayStation 2 PS2 Slim Game Console"
+   },
+   {
+       "image":"images/ps1.png",
+       "console": "PlayStation",
+       "price": "$49.99",
+       "discription": "Sony PlayStation 1 Complete System Console PS1 PSX "
+   },
+   {
+       "image":"images/switch.png",
+       "console": "Nintendo Switch",
+       "price": "$299.99",
+       "discription": "Nintendo Switch OLED Console White Joy-Con"
+   },
+   {
+       "image":"images/wii.png",
+       "console": "Nintendo Wii",
+       "price": "$99.99",
+       "discription": "Refurbished 250GB Nintendo Wii - Game console - white"
+   },
+   {
+       "image":"images/gamecube.png",
+       "console": "Nintendo GameCube",
+       "price": "$79.99",
+       "discription": " Nintendo Gamecube Indigo Purple with Controller & Memory Card"
+   },
+   {
+   
+       "image":"images/nintendo64.png",
+       "console": "Nintendo64",
+       "price": "$69.99",
+       "discription": "Original N64 system control deck, Jumper Pak, power cord, TV hookup, and 1 used third party controller."
+   }
+   ]

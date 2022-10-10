@@ -1,0 +1,386 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+/* nav styling starts here */
+nav {
+  background-color: rgb(17, 108, 199);
+  height: 100px;
+  padding-right: 50px;
+}
+nav:hover {
+  box-shadow: 5px 10px 10px;
+  color: gray;
+}
+ul {
+  list-style: none;
+  float: right;
+}
+li {
+  display: inline-block;
+  line-height: 50px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+ul li a:hover {
+  color: gold;
+}
+
+.logo {
+  font-size: 50px;
+  margin-left: 40px;
+  line-height: 80px;
+  color: white;
+}
+
+.search-bar {
+  width: 100%;
+  margin-right: 350px;
+  padding: 8px;
+}
+/*  styling for top section starts here */
+.left-container {
+  border-radius: 7px;
+  border: solid gray 2px;
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 200px;
+  background: white;
+  width: 400px;
+}
+.center-title {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+}
+
+.phrase {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.whole-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.img-left {
+  width: 200px;
+}
+
+.top-item {
+  border-radius: 5px;
+  border: solid gray 2px;
+  height: 390px;
+  padding: 15px;
+  margin-top: 150px;
+  background: white;
+}
+
+.top-phrase {
+  font-size: 30px;
+  border: 2px red;
+  border-radius: 5px;
+  background: red;
+  padding: 5px;
+}
+.coming-soon {
+  border: 2px solid gray;
+  border-radius: 5px;
+  height: 390px;
+  margin-top: 150px;
+  margin-left: 60px;
+  padding: 15px;
+}
+.coming-soon-phrase {
+  border: 1px gold;
+  border-radius: 5px;
+  background: gold;
+  padding: 5px;
+  font-size: 30px;
+  padding-left: 20px;
+}
+.halo-remote {
+  padding-top: 50px;
+}
+/*Slider styling starts here for all 3 */
+.product {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.product-category {
+  padding: 0 10vw;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  background: green;
+  color: white;
+}
+.product-category2 {
+  padding: 0 10vw;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  background: blue;
+  color: white;
+}
+
+.product-category3 {
+  padding: 0 10vw;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  background: red;
+  color: white;
+}
+
+.product-container {
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  border: solid lightgrey 5px;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 450px;
+  margin-right: 40px;
+}
+
+.product-image {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+.product-image:hover {
+  border-radius: 2px red;
+}
+
+.product-thumb {
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 10px;
+  width: 90%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background-color: rgb(17, 108, 199);
+  color: white;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.product-card:hover .card-btn {
+  opacity: 1;
+}
+
+.card-btn:hover {
+  background-color: gold;
+  color: #fff;
+}
+
+.price {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.actuaal-price {
+  margin-left: 20px;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.pre-btn {
+  left: 0;
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
+
+.collection-contanier {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.collection {
+  position: relative;
+}
+
+.collection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.collection p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.collection:nth-child(3) {
+  grid-column: span 2;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 400px) {
+  nav {
+    width: 321px;
+    height: 275px;
+  }
+  .search-bar {
+    margin-right: 70px;
+  }
+  .whole-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .left-container {
+    padding: 10px;
+    margin: 18px;
+    margin-top: 150px;
+  }
+  .img-left {
+    width: 170px;
+    margin: 58px;
+  }
+  .right-container {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    width: 800px;
+    height: 190px;
+  }
+  ul {
+    padding-left: 5px;
+  }
+  .search-bar {
+    margin-right: 250px;
+  }
+  .whole-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left-container {
+    margin-left: 75px;
+  }
+}
+/*Footer down here */
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(17, 108, 199);
+  height: 100px;
+  margin-top: 100px;
+}
+.container-middle {
+  border: 2px black;
+}
+
+.li-one {
+  font-size: 20px;
+  border-right: solid white 2px;
+  padding-right: 15px;
+  font-weight: bold;
+}
+
+.li-two {
+  font-size: 20px;
+  border-right: solid white 2px;
+  padding-right: 15px;
+}
+.li-three {
+  font-size: 20px;
+  border-right: solid white 2px;
+  padding-right: 15px;
+}
+
+li {
+  font-size: 15px;
+  color: white;
+}
+
+.area {
+  min-height: 150px;
+}
+
+/*Media Screen */
+
+@media screen and (max-width: 880px) {
+  .contact-box {
+    grid-template-columns: 1fr;
+  }
+  .left {
+    height: 200px;
+  }
+}
